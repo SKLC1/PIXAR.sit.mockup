@@ -75,7 +75,7 @@ body {
   padding: 150px;
 }
 .footer-contain{
-margin: 800px 900px;
+margin: 600px 900px;
 margin-bottom: 100px;
 }
 
@@ -90,9 +90,15 @@ margin-bottom: 100px;
 }
 #extra-links{
   text-align: center;
-  margin-top: 00px;
+  font-family: brandon-grotesque;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: .29em;
+  line-height: 1.7em;
+  text-transform: uppercase;
 }
 #extra-links-box{
-  margin: 150px;
+  margin:  0px 400px;
   text-align: center;
 }
