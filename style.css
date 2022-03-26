@@ -15,6 +15,7 @@ body {
   text-transform: none;
   color: rgba(29,29,29,.7);
 }
+/* navbar */
 #container{
   margin: 40px 130px;
 }
@@ -36,13 +37,15 @@ body {
 .top-nav-item{
   display: inline;
   padding: 10px;
+  color: black;
+  font-size: 20px;
 }
 #image{
   width: 500px;
   float: left;
   text-align: center;
 }
-
+/* main */
 .inner{
   font-family: "Brandon Grotesque Bold";
   font-family: Arial,Helvetica,sans-serif;
@@ -54,7 +57,7 @@ body {
   
 }
 #error-message{
- text-align: center;
+  text-align: center;
   font-family: brandon-grotesque;
   font-weight: 900;
   font-style: normal;
@@ -66,10 +69,14 @@ body {
   margin-top: 200px;
   margin-right:150px;
   margin-left:1px;
+  margin-bottom: 40px;
+  color: black;
 }
 .sub-text{
   text-align: center; 
-  white-space: pre-wrap;
+  font-size: 20px;
+  color: rgba(29,29,29,.7);
+  margin-right: 110px;
 }
 .main{
   padding: 150px;
@@ -78,17 +85,16 @@ body {
 margin: 600px 900px;
 margin-bottom: 100px;
 }
-
 #social-list li{
   display: inline; 
+  
 }
-
 .social-icon{
   color: black;
   font-size: 10x;
   padding: 5px;
 }
-#extra-links{
+.bottom-text{
   text-align: center;
   font-family: brandon-grotesque;
   font-weight: 400;
@@ -98,7 +104,13 @@ margin-bottom: 100px;
   line-height: 1.7em;
   text-transform: uppercase;
 }
+#extra-links{
+  margin-top: 50px;
+}
 #extra-links-box{
   margin:  0px 400px;
   text-align: center;
+}
+#copyrights{
+  margin-top: 10px;
 }
