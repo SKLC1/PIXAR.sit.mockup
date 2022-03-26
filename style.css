@@ -65,6 +65,7 @@ body {
   float: right;
   margin-top: 200px;
   margin-right:150px;
+  margin-left:1px;
 }
 .sub-text{
   text-align: center; 
@@ -73,9 +74,10 @@ body {
 .main{
   padding: 150px;
 }
-/* .footer-contain{
+.footer-contain{
 margin: 800px 900px;
-} */
+margin-bottom: 100px;
+}
 
 #social-list li{
   display: inline; 
@@ -83,6 +85,14 @@ margin: 800px 900px;
 
 .social-icon{
   color: black;
-  font-size: 25px;
-  padding: 7px;
+  font-size: 10x;
+  padding: 5px;
+}
+#extra-links{
+  text-align: center;
+  margin-top: 00px;
+}
+#extra-links-box{
+  margin: 150px;
+  text-align: center;
 }
